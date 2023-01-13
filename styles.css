@@ -2,7 +2,7 @@ body{
     background-color: aquamarine;
 }
 
-/* div.footer{
-    background-color: rgb(100, 220, 200);
+div.footer{
+    background-color: grey;
     padding: 5px;
-} */
+}
