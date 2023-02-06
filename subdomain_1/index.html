@@ -10,8 +10,33 @@
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
             crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="search_styles.css" />
     </head>
     <body>
+        <div id="page">
+            <h1>Поиск по сайту с использованием Google</h1>
+            <form id="searchForm" method="post">
+                <fieldset>
+                <input id="s" type="text" />
+                <input type="submit" value="Submit" id="submitButton" />
+                <div id="searchInContainer">
+                    <input type="radio" name="check" value="site" id="searchSite" checked />
+                    <label for="searchSite" id="siteNameLabel">Поиск по</label>
+                    <input type="radio" name="check" value="web" id="searchWeb" />
+                    <label for="searchWeb">Поиск в Интернет</label>
+                </div>
+                    <ul class="icons">
+                        <li class="web" title="Страницы" data-searchType="web">Страницы</li>
+                        <li class="images" title="Изображения" data-searchType="images">Изображения</li>
+                        <li class="news" title="Новости" data-searchType="news">Новости</li>
+                        <li class="videos" title="Видео" data-searchType="video">Видео</li>
+                    </ul>
+                </fieldset>
+            </form>
+            <div id="resultsDiv"></div>
+        </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="script.js"></script>
         <header class="header">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -143,7 +168,7 @@
             Очень долго республика Карелия была широко известна в&nbsp;узких кругах любителей дикого туризма, охоты и&nbsp;рыбалки, но&nbsp;теперь все изменилось. Завораживающие скалы, обилие невероятных водопадов, будоражащие воображение болота, и&nbsp;множество троп, уходящих вглубь Тайги&nbsp;&mdash; это всё среди нас, это все&nbsp;&mdash; Карелия. Карелия открылась для всех видов туризма. Нет такого направления туризма, который нельзя встретить в&nbsp;этом дивном крае:
         </p>
         <ul>
-            <li>&mdash;&nbsp;путешественники</li>
+            <li>&nbsp;путешественники</li>
             <li>&nbsp;любители активного отдыха</li>
             <li>&nbsp;любители экстремального туризма</li>
             <li>&nbsp;любители спортивного туризма</li>
