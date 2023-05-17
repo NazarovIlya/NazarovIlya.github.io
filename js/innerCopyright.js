@@ -1,1 +1,0 @@
-document.write("<p>&copy;&nbsp;&laquo;QB&raquo;, 2023.</p>")

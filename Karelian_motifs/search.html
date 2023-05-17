@@ -15,7 +15,7 @@
     <body>
         <header class="header">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-dark">
+                <nav class="navbar navbar-expand-xl navbar-dark">
                     <div class="container-fluid">
                         <a class="navbar-brand mr-5" href="index.html">
                             <img src="images/logo1.png" alt="Freedom">
@@ -50,23 +50,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a
-                                        class="nav-link dropdown-toggle"
-                                        href="#"
-                                        id="navbarDropdown"
-                                        role="button"
-                                        data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Карелия туристическая</a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="attractions.html">Достопримечательности</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">Маршруты путешествий</a>
-                                        </li>
-                                    </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="attractions.html">Достопримечательности</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a
@@ -105,19 +90,21 @@
             </div>
         </header>
         <div class="container">
+            <button onclick="topFunction()" id="myBtn" title=""><img src="images/icon_top.png" alt=""></button>
             <br>
             <button id="history-button" class="history-hide">Вернуться назад</button>
             <h2 class="headname">Результаты поиска:</h2>
             <div class="searchResults"></div>
         </div>
         <div class="main"></div>
-        <div class="container-fluid footer ">
-            <footer class="container">
+        <div class="container-fluid footer  ">
+            <footer class="">            
                 <div class="forfooter">
-                    <script src="../js/innerCopyright.js"></script>
+                    <script src="js/innerCopyright.js"></script>
                     <div class="text-center forbtn-adout">
-                        <a href="about.html" class="btn-about btn btn-lg ">О нас</a>
-                    </div> 
+                        <a href="about.html" class="btn-about btn">О нас</a>
+                    </div>   
+                </div>  
             </footer>
         </div>
         <script
@@ -127,5 +114,6 @@
             <script src="js/bottom_back.js"></script>
             <script src="js/search/search.js"></script>
             <script src="js/search/inner.js"></script>
+            <script src="js/btnUp.js"></script>
     </body>
 </html>
