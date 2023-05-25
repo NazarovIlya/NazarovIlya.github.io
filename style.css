@@ -1,0 +1,13 @@
+.heading{
+  height: 1.3em;
+  background-color: grey;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: antiquewhite;
+  font-style: italic;
+  ;
+}
+
+.main{
+  background-color:beige;
+}
