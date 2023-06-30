@@ -86,6 +86,7 @@ a{
 }
 
 #check:checked ~ .burger-menu-block{
+  display: none;
   transform: translate(100%);
 }
 
