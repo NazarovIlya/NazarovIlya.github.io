@@ -1,4 +1,6 @@
 // #1
+console.log('\nЗадача №1\n');
+
 let numFirst = 0;
 let numSecond = 0;
 
@@ -15,11 +17,13 @@ if ((numFirst <= 1) && (numSecond >= 3)) {
 }
 
 // #2
+console.log('\nЗадача №2\n');
 let test = true;
 
 (test === true) ? console.log('+++') : console.log('---');
 
 // #3
+console.log('\nЗадача №3\n');
 let day = 0;
 
 day = parseInt(prompt('Введите число месяца от 1 до 31:', '0-31'));
@@ -36,6 +40,7 @@ if (day >= 1 && day <= 31) {
 }
 
 // #4
+console.log('\nЗадача №4\n');
 let number = 0;
 let hundreds = 0;
 let decades = 0;
