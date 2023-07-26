@@ -498,6 +498,23 @@
     font-size: 16px;
   }
 }
+@media screen and (max-width: 525px) {
+  .registration-box {
+    flex-direction: column;
+    margin-bottom: 96px;
+    justify-content: center;
+    align-items: center;
+  }
+  .registration-box__left {
+    width: 95vw;
+  }
+  .registration-box__button-box {
+    margin-bottom: 57px;
+  }
+  .registration-box__right {
+    width: 95vw;
+  }
+}
 * {
   margin: 0;
   padding: 0;
