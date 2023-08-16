@@ -45,4 +45,4 @@ const wrapDogs = document.querySelector('.dogs');
 setInterval(async () => {
   const conreteDog = await getData(urlRandomDog);
   wrapDogs.innerHTML = `<img src='${conreteDog.message}' alt='dog photo'>`;
-}, 3000);
+}, 3000);   
